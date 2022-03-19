@@ -10,7 +10,7 @@ import { stripe } from '../services/stripe';
 type HomeProps = {
   product: {
     priceId: string;
-    amount: number;
+    amount: string;
   };
 };
 
@@ -30,7 +30,7 @@ export default function Home({ product }: HomeProps) {
             News about the <span>React</span> world
           </h1>
           <p>
-            Get acess to all the publications for{' '}
+            Get acess to all the publications for
             <span>{product.amount} month</span>
           </p>
           <SubscribeButton />
@@ -43,7 +43,6 @@ export default function Home({ product }: HomeProps) {
 
 export const getStaticProps: GetStaticProps = async () => {
   //Faz a atualização do preço
-
   const price = await stripe.prices.retrieve('price_1K4VHVDUN3NptVEZPWBRxNDf');
 
   const product = {

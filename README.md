@@ -3,7 +3,7 @@
 </div>
 
 ##
-<h4 align="center"> Uma Newsletter de React </h4>
+<h3 align="center"> Uma Newsletter de React </h3>
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/tinellin/ignite-ignews?color=525dcb">
@@ -19,6 +19,8 @@
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=525dcb">
 </p>
+
+<img src="https://cdn.discordapp.com/attachments/752375682608398357/959119992341815316/desktop.png" alt="ig.news tela principal"/>
 
 <h2> 📄 Sobre o projeto </h2>
 

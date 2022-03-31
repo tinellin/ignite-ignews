@@ -167,5 +167,7 @@ yarn dev
 <h3> 🧾 Licença </h3>
 Este projeto esta sob a MIT license para mais detalhes.
 
-Feito com ❤️ por Enzo Tinelli
+##
+
+Feito com ❤️ por Enzo Tinelli</br>
 By Rocketseat
